@@ -13,13 +13,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button btnLogin = (Button)
-                this.findViewById(R.id.btnLogin);
-
+        Button btnLogin = (Button)  this.findViewById(R.id.btnLogin);
+        Button btnRegister = (Button) this.findViewById(R.id.btnRegister);
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, MainActivity2.class);
+                Intent i = new Intent(MainActivity.this, ProfileActivity.class);
+                MainActivity.this.startActivity(i);
+            }
+        });
+        btnRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, RegisterActivity.class);
                 MainActivity.this.startActivity(i);
             }
         });

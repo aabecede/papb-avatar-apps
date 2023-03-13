@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="checkbox_eye" type="id" />
+    <item name="imageView2" type="id" />
+    <item name="imageView_mouth" type="id" />
+    <item name="imageView_nose" type="id" />
+    <item name="imageView_eye" type="id" />
+    <item name="imageView_brow" type="id" />
+    <item name="checkBox_brow" type="id" />
+    <item name="checkbox_mouth" type="id" />
+    <item name="checkBox_nose" type="id" />
+    <item name="button_profile" type="id" />
+</resources>

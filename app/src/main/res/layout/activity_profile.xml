@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_background">
+
+    <TextView
+        android:id="@+id/profile_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/profile_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: aabdul.jabbar1301@gmail.com"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_below="@id/profile_title"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: Abdul Jabbar"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_below="@id/profile_email"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/profile_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username: aabecede"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_below="@id/profile_name"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/profile_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avatar"
+        android:textColor="@color/white"
+        android:background="@drawable/profile_button_background"
+        android:layout_below="@id/profile_username"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/profile_logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_username"
+        android:layout_marginTop="98dp"
+        android:background="@drawable/profile_button_background"
+        android:text="Logout"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
